@@ -7,3 +7,4 @@ Route::get('/', function () {
 });*/
 
 Route::get('/', 'App\Http\Controllers\ThuVienController@welcome');
+Route::get('/book', 'App\Http\Controllers\ThuVienController@book');
